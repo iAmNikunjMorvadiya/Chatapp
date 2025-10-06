@@ -1,13 +1,13 @@
 {
-  "name": "private-chat",
+  "name": "chat-app",
   "version": "1.0.0",
-  "description": "Simple private chat app using Node.js and Socket.io",
-  "main": "server.js",
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "socket.io": "^4.7.5"
+    "socket.io": "^4.8.1"
   }
 }
